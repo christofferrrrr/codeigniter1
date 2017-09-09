@@ -1,0 +1,17 @@
+<?php
+class Students-model extends CI_Model{
+	private $table = "students"
+	public function create(){
+	}
+	public function read(){
+	$this -> db->select('*');
+	$this -> db->from($this->table);
+	}
+	public function update(){
+	}
+	
+	public function delete student(){
+	}
+	
+}
+?>
